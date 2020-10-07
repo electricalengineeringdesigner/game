@@ -24,29 +24,57 @@ body {
 	border-color:#000;
 	color: #000;
 	margin: auto;
-	width: 480px;
+	width: 240px;
 }
+</style>
+
+
+<style>
+.fullscreenbutton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.fullscreenbutton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.fullscreenbutton:active {
+	position:relative;
+	top:1px;
+}
+
 </style>
 </head>
 
 <body>
+<br>
+<center>
+<a href="game/index.html" target="new" class="fullscreenbutton">Play Full Screen (iPhone)</a>
+</center>
+<br>
 
-<div id="GAMEcontent" style="
-	background-color: #4e3e31;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	background-image:url(bg3.jpg);
-	background-position: center top;
-	background-repeat:no-repeat;
-
-
-">
+<div id="GAMEcontent">
+	
     <div id="game">
-    <iframe frameborder="0" src="game/index.html" width="480px" height="720px"></iframe>
+    <iframe frameborder="0" src="game/index.html" width="240px" height="360px"></iframe>
     </div>
 </div>
-
+<br>
+<center>
+<a href="game/index.html" target="new" class="fullscreenbutton">Play Full Screen (iPhone)</a>
+</center>
+<br>
 </body>
 </html>
